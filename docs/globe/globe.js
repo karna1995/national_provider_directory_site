@@ -102,7 +102,7 @@ var rotation = { x: 0, y: 0, autox: 0.009, autoy: 0 }, target = { x: 0, y: 0 }, 
     shader = Shaders['earth'];
     uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-    uniforms['texture'].value = THREE.ImageUtils.loadTexture('world.png');
+    uniforms['texture'].value = THREE.ImageUtils.loadTexture('globe/world.png');
 
     material = new THREE.ShaderMaterial({
 
